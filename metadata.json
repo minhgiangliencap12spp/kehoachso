@@ -1,0 +1,5 @@
+{
+  "name": "ỨNG DỤNG TẠO KẾ HOẠCH TUẦN TỰ ĐỘNG CHO GIÁO VIÊN",
+  "description": "Ứng dụng hỗ trợ giáo viên lên lịch báo giảng tự động. Nhập Phân Phối Chương Trình (PPCT) từ Excel hoặc AI, tự động điền tên bài theo số tiết và xuất báo cáo Excel chuyên nghiệp.",
+  "requestFramePermissions": []
+}

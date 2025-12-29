@@ -1,0 +1,68 @@
+import { PPCTEntry } from "../types";
+
+export const SAMPLE_PPCT: PPCTEntry[] = [
+  // --- Toán(Đ) - Đại số 9 (Ví dụ) ---
+  { lessonNumber: 1, lessonName: "Căn bậc hai", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 2, lessonName: "Căn thức bậc hai và hằng đẳng thức", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 3, lessonName: "Luyện tập", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 4, lessonName: "Liên hệ giữa phép nhân và phép khai phương", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 5, lessonName: "Liên hệ giữa phép chia và phép khai phương", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 6, lessonName: "Luyện tập", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 7, lessonName: "Biến đổi đơn giản biểu thức chứa căn thức bậc hai", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 8, lessonName: "Biến đổi đơn giản biểu thức chứa căn thức bậc hai (tiếp)", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 9, lessonName: "Luyện tập", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 10, lessonName: "Rút gọn biểu thức chứa căn thức bậc hai", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 11, lessonName: "Luyện tập", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 12, lessonName: "Căn bậc ba", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 13, lessonName: "Ôn tập chương I", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 14, lessonName: "Kiểm tra Chương I", subject: "Toán(Đ)", grade: "9" },
+  { lessonNumber: 15, lessonName: "Nhắc lại và bổ sung các khái niệm về hàm số", subject: "Toán(Đ)", grade: "9" },
+
+  // --- Toán(H) - Hình học 9 (Ví dụ) ---
+  { lessonNumber: 1, lessonName: "Một số hệ thức về cạnh và đường cao trong tam giác vuông", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 2, lessonName: "Luyện tập", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 3, lessonName: "Tỉ số lượng giác của góc nhọn", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 4, lessonName: "Tỉ số lượng giác của góc nhọn (tiếp)", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 5, lessonName: "Luyện tập", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 6, lessonName: "Một số hệ thức về cạnh và góc trong tam giác vuông", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 7, lessonName: "Luyện tập", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 8, lessonName: "Ứng dụng thực tế các tỉ số lượng giác của góc nhọn", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 9, lessonName: "Ôn tập chương I", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 10, lessonName: "Kiểm tra chương I", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 11, lessonName: "Sự xác định đường tròn. Tính chất đối xứng của đường tròn", subject: "Toán(H)", grade: "9" },
+  { lessonNumber: 12, lessonName: "Đường kính và dây của đường tròn", subject: "Toán(H)", grade: "9" },
+
+  // --- Tin học 7 (Kết nối tri thức / Cánh diều) ---
+  { lessonNumber: 1, lessonName: "Bài 1. Thiết bị vào - ra", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 2, lessonName: "Bài 2. Phần mềm máy tính", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 3, lessonName: "Bài 3. Quản lý dữ liệu trong máy tính", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 4, lessonName: "Bài 4. Mạng xã hội và trao đổi thông tin", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 5, lessonName: "Bài 5. Ứng xử trên mạng", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 6, lessonName: "Luyện tập & Thực hành", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 7, lessonName: "Bài 6. Làm quen với bảng tính điện tử", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 8, lessonName: "Bài 7. Tính toán tự động trên trang tính", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 9, lessonName: "Bài 8. Công cụ hỗ trợ tính toán", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 10, lessonName: "Bài 9. Trình bày bảng tính", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 11, lessonName: "Bài 10. Hoàn thiện bảng tính", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 12, lessonName: "Bài 11. Tạo bài trình chiếu", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 13, lessonName: "Bài 12. Định dạng đối tượng trên trang chiếu", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 14, lessonName: "Kiểm tra giữa kì", subject: "Tin học 7", grade: "7" },
+  { lessonNumber: 15, lessonName: "Bài 13. Thực hành tổng hợp", subject: "Tin học 7", grade: "7" },
+
+  // --- Tin học 9 (GDPT 2018) ---
+  { lessonNumber: 1, lessonName: "Bài 1. Thông tin và xử lý thông tin", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 2, lessonName: "Bài 2. Chất lượng thông tin trong môi trường số", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 3, lessonName: "Bài 3. Đạo đức, pháp luật và văn hóa trong môi trường số", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 4, lessonName: "Bài 4. Tìm hiểu phần mềm mô phỏng", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 5, lessonName: "Bài 5. Sử dụng phần mềm mô phỏng", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 6, lessonName: "Bài 6. Thực hành khai thác phần mềm mô phỏng", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 7, lessonName: "Bài 7. Trình bày thông tin trong trao đổi và hợp tác", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 8, lessonName: "Bài 8. Sơ đồ tư duy và phần mềm sơ đồ tư duy", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 9, lessonName: "Bài 9. Thực hành: Sử dụng phần mềm sơ đồ tư duy", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 10, lessonName: "Bài 10. Dự án: An toàn trong môi trường số", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 11, lessonName: "Bài 11. Tạo bài trình chiếu đa phương tiện", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 12, lessonName: "Bài 12. Hiệu ứng động trong bài trình chiếu", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 13, lessonName: "Bài 13. Thực hành tổng hợp: Hoàn thiện bài trình chiếu", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 14, lessonName: "Kiểm tra giữa kì", subject: "Tin học 9", grade: "9" },
+  { lessonNumber: 15, lessonName: "Bài 14. Giải quyết vấn đề với sự trợ giúp của máy tính", subject: "Tin học 9", grade: "9" }
+];
